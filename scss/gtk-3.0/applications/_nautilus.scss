@@ -1,4 +1,11 @@
 window.nautilus-window {
+  tabs {
+    tab {
+      button {
+        padding: 4px;
+      }
+    }
+  }
   .nautilus-menu-sort-heading {
     margin: 0 -5px;
   }

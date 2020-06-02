@@ -1,0 +1,1 @@
+- firefox autocompletion dropdown does not render currently selected entry any different when selecting with arrow up and down

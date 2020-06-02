@@ -5,6 +5,14 @@ textview {
   background: $background-2;
   padding: 8px;
 
+  text selection {
+    background: green;
+  }
+
+  &:active {
+    background: blue;
+  }
+
   &:focus {
     background: transparentize(white, 0.9);
   }

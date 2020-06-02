@@ -36,15 +36,16 @@ tabs {
   tab {
     padding: 8px;
     color: transparentize($foreground-color, 0.8);
-    transition: border-color 100ms ease-in-out;
+    transition: color 200ms ease-in-out, border-color 200ms ease-in-out;
+    header {
+      &:checked {
+        border-color: $primary-accent;
+        color: $foreground-color;
+      }
 
-    header &:checked {
-      border-color: $primary-accent;
-      color: $foreground-color;
-    }
-
-    header &:hover:not(:checked) {
-      border-color: transparentize($foreground-color, 0.8);
+      &:hover:not(:checked) {
+        border-color: transparentize($foreground-color, 0.8);
+      }
     }
   }
 }
