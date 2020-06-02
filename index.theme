@@ -1,11 +1,11 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=phisch
+Name=my_phisch
 Comment=the phisch theme
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=phisch
+GtkTheme=my_phisch
 MetacityTheme=phisch
 IconTheme=gnome
 CursorTheme=DMZ-Black

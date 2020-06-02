@@ -8,6 +8,7 @@ switch {
 
   slider {
     background: $foreground-color;
+    transition: background 100ms ease-in-out;
     border-radius: 100%;
     min-width: 5px;
     min-height: 5px;
