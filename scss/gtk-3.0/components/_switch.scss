@@ -24,14 +24,4 @@ switch {
   }
 
   &:disabled { opacity: 0.3; }
-
-  &:hover {
-    slider {
-      box-shadow: 0 0 0 8px rgba(255,255,255,0.05);
-    }
-
-    &:checked slider {
-      box-shadow: 0 0 0 8px transparentize($accent-7, 0.9);
-    }
-  }
 }

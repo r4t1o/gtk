@@ -6,7 +6,7 @@ window.nautilus-window {
   // those are the items inside the nautilus canvas
   .nautilus-canvas-item {
     &:selected, &:active {
-      background: #2d2d2d;
+      background: #5d5d5d;
       border-radius: 3px;
     }
   }

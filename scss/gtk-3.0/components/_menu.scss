@@ -1,7 +1,8 @@
 menu {
   background: rgba(255,255,255,0.1);
+  //background: $background-2;
   menuitem {
-    padding: 5px;
-    &:hover { background: $background-3; }
+    padding: 8px;
+    &:hover { background: $background-2; }
   }
 }
