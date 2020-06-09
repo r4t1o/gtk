@@ -1,4 +1,11 @@
 .thunar {
+  grid {
+    *:selected, *:active {
+      background: #5d5d5d;
+      border-radius: 3px;
+    }
+  }
+
   toolbar,
   menubar {
     background: $background-2;
@@ -8,6 +15,8 @@
   grid notebook stack {
     box-shadow: inset 0 0 3px 0 rgba(0,0,0,0.3);
   }
+
+
 
   .frame {
     border: 0;
