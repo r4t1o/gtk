@@ -3,6 +3,25 @@ This GTK3 theme is part of the [Phocus](https://github.com/phocus) theme collect
 
 ## Installation
 
+### Nix
+
+```nix
+gtk = {
+  enable = true;
+  theme = let
+      phocus = pkgs.stdenv.mkDerivation {
+        name = "phocus";
+        src = builtins.fetchTarball https://github.com/elkowar/gtk/archive/master.tar.gz;
+        nativeBuildInputs = [ pkgs.sass ];
+        installFlags = [ "DESTDIR=$(out)" "PREFIX=" ];
+      };
+    in {
+    package = phocus;
+    name = "phocus";
+  };
+};
+```
+
 ### Arch
 ```bash
 $ yay -S phocus-gtk-theme-git
