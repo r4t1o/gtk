@@ -18,8 +18,8 @@ $accent-8: hsl(300,60%,60%);
 $primary-accent: $accent-4;
 $secondary-accent: $accent-6;
 
-$foreground-color: lighten($background-3, 45%);
-//$foreground-color: #ebdbb2;
+//$foreground-color: lighten($background-3, 45%);
+$foreground-color: #fbf1c7;
 
 // TODO: is there a better way to do this? this is for example used in gnome-calculator for the result top-border
 @define-color borders #{"" +$background-2};
