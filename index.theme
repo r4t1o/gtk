@@ -1,12 +1,12 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=my_phisch
-Comment=the phisch theme
+Name=elkowars_phocus
+Comment=Elkowar's version of the phocus theme
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=my_phisch
-MetacityTheme=phisch
+GtkTheme=elkowars_gruvbox
+MetacityTheme=elkowars_gruvbox
 IconTheme=gnome
 CursorTheme=DMZ-Black
 ButtonLayout=menu:minimize,maximize,close
