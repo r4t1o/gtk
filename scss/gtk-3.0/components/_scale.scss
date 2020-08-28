@@ -2,16 +2,16 @@ scale {
   padding: 8px 0;
 
   contents {
-
     trough {
       background: $background-3;
       slider {
-        background: lighten($background-3, 25%);
+        background: $foreground-color;
         padding: 8px;
         margin: -5px;
         border-radius: 100%;
       }
-      highlight { }
+      highlight {
+      }
     }
   }
 
@@ -27,8 +27,14 @@ scale {
     }
   }
 
-  &.horizontal highlight { background-image: linear-gradient(to right, $accent-5, $accent-4); }
-  &.vertical highlight { background-image: linear-gradient(to bottom, $accent-5, $accent-4); }
+  &.horizontal highlight {
+    background-image: linear-gradient(to right, $accent-5, $accent-4);
+  }
+  &.vertical highlight {
+    background-image: linear-gradient(to bottom, $accent-5, $accent-4);
+  }
 
-  &:disabled { opacity: 0.3; }
+  &:disabled {
+    opacity: 0.3;
+  }
 }

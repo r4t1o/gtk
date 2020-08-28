@@ -1,7 +1,13 @@
-window, dialog {
+window,
+dialog,
+messagedialog {
   background: $background-1;
   color: $foreground-color;
 }
 dialog > box {
   padding: 10px;
+}
+
+messagedialog box {
+  padding: 5px;
 }
