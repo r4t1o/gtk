@@ -23,5 +23,5 @@ gtk = {
 ```
 ### From source
 
-install `sassc`,
+install `sass`,
 then just run `make && sudo make install` to build and install the theme.

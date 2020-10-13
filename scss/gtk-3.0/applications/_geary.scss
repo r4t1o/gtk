@@ -1,8 +1,9 @@
 window.geary-main-window {
   background-color: rgba(40, 40, 40, 0.2);
 
-  .conversation-listbox row {
-    margin: 10px;
+  /* this does not work, because PHUCK */
+  viewport.frame list.conversation-listbox > row {
+    margin: 8px;
     padding: 5px;
   }
 
