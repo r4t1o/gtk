@@ -9,7 +9,7 @@ button {
   &:checked, &.suggested-action {
     background: $primary-accent;
     color: lighten($primary-accent, 40%);
-    &:hover:not(:active) { background: darken($secondary-accent, 5%); }
+    &:hover:not(:active) { background: darken($primary-accent, 5%); }
   }
 
   &.destructive-action {
