@@ -29,7 +29,7 @@ $primary-accent: $accent-4;
 $secondary-accent: $accent-6;
 
 //$foreground-color: lighten($background-3, 45%);
-$foreground-color: #fbf1c7;
+$foreground-color: #ffffff;
 
 // TODO: is there a better way to do this? this is for example used in gnome-calculator for the result top-border
 @define-color borders #{"" +$background-2};
