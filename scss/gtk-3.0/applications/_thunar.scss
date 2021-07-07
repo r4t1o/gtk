@@ -21,7 +21,7 @@ window.thunar {
   treeview {
     padding: 3px;
     &:selected {
-      background: rgba(27, 32, 44, 1);
+      background: rgba(27, 32, 44, 0.2);
     }
   }
 
