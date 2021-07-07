@@ -8,7 +8,7 @@ window.thunar {
   grid {
     *:selected,
     *:active {
-      background: $background-3;
+      background-color: rgba(27, 31, 43, 0.2);
       border-radius: 3px;
     }
   }
@@ -36,7 +36,7 @@ window.thunar {
   }
 
   paned grid {
-    background: $background-1;
+    background-color: rgba(27, 31, 43, 0.2);
   }
 
   toolbar {
