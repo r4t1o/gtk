@@ -21,7 +21,8 @@ window.thunar {
   treeview {
     padding: 3px;
     &:selected {
-      background: rgba(27, 31, 43, 0.2);
+      background-color: #0F111A20;
+    }
   }
 
   .frame {
@@ -35,11 +36,11 @@ window.thunar {
   }
 
   paned grid {
-    background-color: rgba(27, 31, 43, 0.2);
+    background-color: #0F111A20;
   }
 
   toolbar {
-    background-color: rgba(27, 31, 43, 0.2);
+    background-color: #0F111A20;
     padding: 5px 0;
   }
   toolbar * {
