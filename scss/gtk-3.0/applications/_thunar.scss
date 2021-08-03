@@ -1,52 +1,46 @@
 window.thunar {
   background: none;
-
   treeview {
     background: none;
   }
-
   grid {
     *:selected,
     *:active {
-      background-color: rgba(27, 31, 43, 0.2);
+      background: $background-3;
       border-radius: 3px;
     }
   }
 
   .sidebar {
     background-color: rgba(27, 31, 43, 0.2);
+    background-color: rgba(27, 31, 43, 0.5);
     padding: 1rem;
   }
 
   treeview {
     padding: 3px;
     &:selected {
-      background: #0F111A20;
+      background: rgba(27, 32, 44, 1);
     }
   }
-
   .frame {
     border: 0;
   }
-
   toolbar {
     box {
       padding: 5px;
     }
   }
-
   paned grid {
-    background-color: #0F111A20;
+    background: $background-1;
   }
-
   toolbar {
-    background-color: #0F111A20;
+    background: $background-2;
     padding: 5px 0;
   }
   toolbar * {
     background: none;
   }
-
   /* hide separator */
   separator {
     background-image: image(rgba(255, 255, 255, 0));
